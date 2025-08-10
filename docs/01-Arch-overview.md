@@ -3,7 +3,7 @@
 This guide walks you through creating a **production-ready, containerized three-tier web architecture** on AWS **manually through the AWS Console**. You'll build the same infrastructure as the CloudFormation templates but gain hands-on experience with each AWS service.
 ## Architecture You'll Build
 
-<img width="1170" height="801" alt="book-app drawio" src="https://github.com/user-attachments/assets/b7faaca2-3fc2-4ec5-9776-7b80c3ef3fd3" />
+<img width="1170" height="801" alt="Book-App drawio (2)" src="https://github.com/user-attachments/assets/96bb9247-60f0-4fea-bf51-a92693a8712e" />
 
 
 ## Prerequisites

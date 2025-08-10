@@ -191,6 +191,10 @@ This project demonstrates a **production-ready, containerized three-tier web arc
 - **Deployment Tracking**: Pipeline execution history
 - **Error Alerting**: Failed deployment notifications
   
+## Outcome
+Containerized Book App with manual control and automated CI/CD options for different deployment strategies
+
+<img width="1911" height="1046" alt="Screenshot 2025-07-29 164220" src="https://github.com/user-attachments/assets/6371e465-3c0b-497d-b8e5-e3489413c98d" />
 
 ## Best Practices Demonstrated
 1. **Infrastructure as Code**: Repeatable, version-controlled infrastructure

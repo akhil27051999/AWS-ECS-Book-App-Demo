@@ -49,27 +49,24 @@ This project demonstrates a **production-ready, containerized three-tier web arc
 
 ## AWS Services Used
 
-### Infrastructure & Networking
-- Amazon VPC
-- Subnets (public/private)
-- Internet Gateway, NAT Gateway
-- Route Tables
-- Security Groups
+| **Category**                    | **AWS Service**                 | **Purpose**                                                              |
+| ------------------------------- | ------------------------------- | ------------------------------------------------------------------------ |
+| **Infrastructure & Networking** | Amazon VPC                      | Provides isolated networking environment for ECS workloads               |
+|                                 | Subnets (public/private)        | Segregates resources based on accessibility (internet-facing vs private) |
+|                                 | Internet Gateway                | Enables communication between VPC and the internet                       |
+|                                 | NAT Gateway                     | Allows private subnets to access the internet securely                   |
+|                                 | Route Tables                    | Controls traffic routing within VPC                                      |
+|                                 | Security Groups                 | Acts as virtual firewalls to control inbound/outbound traffic            |
+| **Container & Deployment**      | Amazon ECS (Fargate)            | Runs containers serverlessly without managing EC2 instances              |
+|                                 | Amazon ECR                      | Stores and manages Docker container images                               |
+|                                 | Application Load Balancer (ALB) | Distributes incoming traffic across ECS tasks/services                   |
+|                                 | ECS Task Definitions & Services | Defines how containers run and ensures service availability              |
+| **CI/CD & Automation**          | AWS CodeCommit                  | Source code repository for application                                   |
+|                                 | AWS CodeBuild                   | Builds and packages application/container images                         |
+|                                 | AWS CodeDeploy                  | Automates deployment to ECS services                                     |
+|                                 | AWS CodePipeline                | Orchestrates CI/CD workflow (Commit → Build → Deploy)                    |
+| **Security**                    | AWS IAM (roles, policies)       | Manages access, roles, and policies for secure operations                |
 
-### Container & Deployment
-- Amazon ECS (Fargate)
-- Amazon ECR
-- Application Load Balancer (ALB)
-- ECS Task Definitions & Services
-
-### CI/CD & Automation
-- AWS CodeCommit
-- AWS CodeBuild
-- AWS CodeDeploy
-- AWS CodePipeline
-
-### Security
-- AWS IAM (roles, policies)
   
 ## Getting Started
 1. **Clone Repository**: Get the CloudFormation templates
